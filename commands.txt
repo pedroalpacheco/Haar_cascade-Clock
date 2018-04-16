@@ -1,0 +1,38 @@
+    1  apt-get update ; apt-get upgrade -y
+    2  clear
+    3  mkdir opencv_workspace
+    4  cd opencv_workspace/
+    5  ls
+    6  apt-get install git
+    7  clear
+    8  git clone https://github.com/Itseez/opencv.git
+    9  apt-get install build-essential
+   10  clear
+   11  df -h
+   12  apt-get install htop
+   13  htop
+   14  apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+   15  apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+   16  apt-get install libopencv-dev
+   17  clear
+   18  ls
+   19  ls neg/
+   20  mkdir data
+   21  mkdir info
+   22  opencv_createsamples -img pos/IMG_20180416_143839687_HDR.jpg -bg bg.txt -info info/info.lst -pngoutput info -maxxangle 0.5 -maxyangle 0.5 -maxzangle 0.5 -num 372
+   23  opencv_createsamples -info info/info.lst -num 372 -w 20 -h 20 -vec positives.vec
+   24  clear
+   25  nohup opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 1800 -numNeg 900 -numStages 10 -w 20 -h 20 &
+   26  htop
+   27  opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 1800 -numNeg 900 -numStages 10 -w 20 -h 20 
+   28  l
+   29  cat positives.vec 
+   30  clear
+   31  ls
+   32  opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 1800 -numNeg 900 -numStages 10 -w 20 -h 20 
+   33  opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 1000 -numNeg 500 -numStages 10 -w 20 -h 20 
+   34  opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 350 -numNeg 125 -numStages 10 -w 20 -h 20 
+   35  nohup opencv_traincascade -data data -vec positives.vec -bg bg.txt -numPos 350 -numNeg 125 -numStages 10 -w 20 -h 20 &
+   36  ls
+   37  history 
+   38  history > commands.txt

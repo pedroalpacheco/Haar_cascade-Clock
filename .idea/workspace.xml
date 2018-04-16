@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6514a7ea-8ec6-45d5-9deb-f117a0cd18b8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Requirements.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/download-image-by-link.py" />
+      <change beforePath="$PROJECT_DIR$/pos/IMG_20180416_143828816.jpg" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +16,8 @@
       <file leaf-file-name="download-image-by-link.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/download-image-by-link.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+            <state relative-caret-position="270">
+              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="23" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -180,10 +177,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/info.lst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cascade-oculos.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1395">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/download-image-by-link.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="23" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
